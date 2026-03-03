@@ -1,0 +1,124 @@
+html {
+  box-sizing:border-box;
+}
+body {
+  background-color:#FFFFFF;
+  font-family:sans-serif;
+  box-sizing:border-box;
+}
+#wrapper {
+  margin:auto;
+  width:80%;
+  background-color:#0C5442;
+  min-width:900px;
+  max-width:2050px;
+  box-shadow:4px 4px #133926;
+  background-image:linear-gradient(to top,#FFFFFF,#OC5442);
+  border-width:1.5pt;
+  border-color:#003300;
+}
+header {
+  height:175px;
+  text-align:center;
+  padding-top:30px;
+  padding-left:3em;
+  background-color:#00B386;
+  color:#FFFFFF;
+  background-image: url(assets/pasture.png);
+  background-position:right top;
+  background-repeat:no-repeat;
+  background-size:400px 80px;
+}
+nav {
+  padding:1.5em 1.5em 1.5em 1.5em;
+  font-size:120%;
+  font-weight:bold;
+  float:left;
+  width:160px;
+}
+nav a {
+  text-decoration:none;
+}
+nav a:link {
+  color:#00664D;
+}
+nav a:visited {
+  color:#7A7A52;
+}
+nav a:hover {
+  color:#FFFFFF;
+}
+nav ul {
+  list-style-type:none;
+  margin:0;
+  padding-left:0;
+}
+main {
+  padding-top:1px;
+  padding-right:20px;
+  padding-left:30px;
+  padding-bottom:20px;
+  display:block;
+  margin-left:190px;
+  background-color:#FFFFFF;
+}
+h1 {
+  margin-top:0;
+  margin-bottom:0;
+  font-family:serif;
+  font-size:3em;
+  letter-spacing:0.25em;
+}
+h2 {
+  color:#00664D;
+  text-shadow:1px 1px #CCCCCC;
+  font-family:serif;
+}
+h3 {
+  font-family:serif;
+}
+dt {
+  color:#00664D;
+}
+footer {
+  padding:15px 15px 15px 15px;
+  text-align:center;
+  font-style:italic;
+  font-size:75%;
+  margin-left:190px;
+  background-color:#FFFFFF;
+}
+.barn {
+  color:#70DBDB;
+  font-weight:bold;
+}
+#homeImage { 
+  background-image: url(assets/sunsetHorse.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left:190px;
+ }
+#boardImage { 
+  background-image: url(assets/fenceline.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left:190px;
+ }
+#trainingImage { 
+  background-image: url(assets/BayBella.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left:190px;
+ }
+ #contact {
+  font-size:90%;
+ }
+ p {
+  margin:0;
+ }
+ ul.a {
+  list-style-image:url(assets/marker.gif);
+ }
