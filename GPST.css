@@ -13,7 +13,7 @@ body {
   min-width:900px;
   max-width:2050px;
   box-shadow:4px 4px #133926;
-  background-image:linear-gradient(to top,#FFFFFF,#OC5442);
+  background-image:linear-gradient(to bottom,#FFFFFF,#0C5442);
   border-width:1.5pt;
   border-color:#003300;
 }
@@ -122,3 +122,4 @@ footer {
  ul.a {
   list-style-image:url(assets/marker.gif);
  }
+
